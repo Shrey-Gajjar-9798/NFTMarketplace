@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');.list {
+    width: 100%;
+    height: max-content;
+    background-color: white;
+    overflow: auto;
+}
+
+.list{
+    width: 100%;
+    height: 100vh;
+    background-color: white;
+    overflow: scroll;
+}
+
+.grid {
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+.UserPage{
+    height: 68vh;
+    background-color: rgb(75, 2, 108);
+    border-radius: 0px 0px 0% 0%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.bigtitle {
+    font-size: 60px;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    margin-top: 40px;
+}
+
+.subpagetitle{
+    font-size: 30px;
+    font-family: 'Poppins', sans-serif;
+    color: whitesmoke;
+    margin-top: 30px;
+}
+
+.userbtn{
+    width: 180px;
+    height: 40px;
+    margin-top: 40px;
+    font-size: 16px;
+    font-weight: 600;
+    color: rgb(75, 2, 108);
+}
+.userbtn:hover{
+    background-color: rgb(75, 2, 108);
+    color: white;
+    border: none;
+    transition: ease-in-out 0.6s;
+    border: 1px solid white;
+}
+.grid-container {
+    margin-top: 50px;
+    padding: 0px;
+    height: 100vh;
+    border-radius: 20px;
+    border: 5px solid rgb(75, 2, 108);
+    width: inherit;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 80px;
+    overflow: scroll;
+    background-color: #e6e6e6;
+    /* padding: 40px; */
+}
+
+.cardlist:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.containerlist {
+    padding: 2px 16px;
+}
+
+/* .containerlist img {
+    height: inherit;
+    width: inherit;
+    object-fit: fill;
+    overflow: hidden;
+
+} */
+
+.card{
+    padding: 0px;
+    height: 340px;
+    width: 300px;
+}
+
+.imagebox{
+    height: 200px;
+    /* background-image: url("https://images.unsplash.com/photo-1704461539031-e7c2145e5fc4?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"); */
+    background-color: rgb(206, 206, 206);
+    overflow: hidden;
+    border-radius: 20px 20px 0px 0px;
+    background-size: contain;
+}
+.nftcontent{
+    margin-top: 30px;
+    justify-content: center;
+}
+.title{
+    font-size: 21px;
+    font-weight: 700;
+}
+.subtxt{
+    margin-top: 6px;
+    font-size: 14px;
+    padding: 8px;
+    word-wrap: break-word;
+    white-space: initial;
+    color: rgb(171, 181, 188);
+}
+
+/* .grid-container>div {
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+    width: 200px;
+    height: 150px;
+} */
+
+/* Style div elements that have class equal to tag */

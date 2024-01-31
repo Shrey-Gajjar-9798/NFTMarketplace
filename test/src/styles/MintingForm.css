@@ -1,0 +1,43 @@
+.minting-form-container {
+    max-width: 400px;
+    margin: 0;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .minting-form-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .minting-form-container form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .minting-form-container label {
+    margin-bottom: 8px;
+    font-weight: bold;
+  }
+  
+  .minting-form-container input,
+  .minting-form-container textarea,
+  .minting-form-container button {
+    margin-bottom: 16px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .minting-form-container button {
+    background-color: #3498db;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  .minting-form-container button:hover {
+    background-color: #2980b9;
+  }
+  

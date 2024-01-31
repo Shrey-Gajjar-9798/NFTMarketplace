@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap');
+
+#createNFT{
+    width: 100%;
+    height: 100vh;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 30px;
+    /* padding: 200px; */
+    font-family: 'Poppins', sans-serif;
+}
+#createRight{
+    display: flex;
+    flex-direction: column;
+    height: inherit;
+    position: absolute;
+    right: 90px;
+    top: 130px;
+}
+
+#metadata{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+    height: 300px;
+    margin: 100px 10px 10px 200px;
+}
+
+#createinput{
+    width: 400px;
+    height: 30px;
+    padding: 8px;
+    border-radius: 20px;
+    border: none;
+    background-color: rgb(226, 226, 226);
+}
+
+#createButton{
+    border: none;
+    background-color: rgb(25, 25, 85);
+    color: white;
+    width: 200px;
+    height: 35px;
+    padding: 8px;
+    border-radius: 20px;
+}
+.metadatatxt{
+    font-size: 13px;
+    margin-top: 10px;
+    color: grey;
+    width: 400px;
+}
+.rs-sider{
+    display: flex;
+    flex-direction: row;
+
+}
+.rs-sider label{
+    margin-right: 10px;
+}
+#nftresult{
+    height: fit-content;
+    width: 400px;
+    position: absolute;
+    right: 7%;
+    background-color: rgb(40, 22, 79);
+    border-radius: 20px;
+    color: white;
+    padding: 12px;
+    margin-top: 100px;
+    margin-left: 230px;
+}
+#resulttitle{
+    font-size: 25px;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    margin: 10px 0px 15px 0px;
+}
+#resultother{
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+    white-space: initial;
+}
+#resultother label{
+    margin-bottom: 14px;
+    word-wrap: break-word;
+    white-space: initial;
+}
+.cid{
+    font-size: 13px;
+    word-wrap: break-word;
+    white-space: initial;
+}
+
+.ipfslink{
+    font-size: 13px;
+    word-wrap: break-word;
+    white-space: initial;
+}

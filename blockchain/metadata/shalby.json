@@ -1,0 +1,18 @@
+{
+    "title": "Shalby NFT",
+    "type": "object",
+    "properties": {
+        "name": {
+            "type": "string",
+            "description": "This is the test nft which we create for user!"
+        },
+        "description": {
+            "type": "string",
+            "description": "he is an actor with smart personality!"
+        },
+        "image": {
+            "type": "string",
+            "description": "https://bafkreib7clhc7nwkq2qn4qiciag7i2g64sjcbefmxsze6tnnq5srkmiehi.ipfs.nftstorage.link"
+        }
+    }
+}

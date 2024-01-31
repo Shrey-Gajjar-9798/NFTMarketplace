@@ -1,0 +1,1 @@
+{"title":"PheakyBlinders","type":"object","properties":{"name":{"type":"string","description":"thomasShalby"},"description":{"type":"string","description":"this is the erc721 token of Pheaky Blinders!"},"image":{"type":"string","description":"https://bafkreib7clhc7nwkq2qn4qiciag7i2g64sjcbefmxsze6tnnq5srkmiehi.ipfs.nftstorage.link"}}}

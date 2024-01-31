@@ -1,0 +1,18 @@
+{
+    "title": "Super Car",
+    "type": "object",
+    "properties": {
+        "name": {
+            "type": "string",
+            "description": "BIG toys"
+        },
+        "description": {
+            "type": "string",
+            "description": "Now cars collection is here check it out"
+        },
+        "image": {
+            "type": "string",
+            "description": "https://bafybeiaxucovhomfalvsoarpf6ugooujrhoysmrv2sg2nua7yiu6xtzy4i.ipfs.nftstorage.link/"
+        }
+    }
+}
