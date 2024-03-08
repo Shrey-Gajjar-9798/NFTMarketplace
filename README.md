@@ -1,6 +1,6 @@
 # NFT Marketplace
 
-![Explore Page](./images/explore.PNG)
+![Explore Page](./images/Explore.PNG)
 
 ## Table of Contents
 - [Introduction](#introduction)
