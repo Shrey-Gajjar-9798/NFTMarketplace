@@ -30,51 +30,12 @@ Welcome to the NFT Marketplace, a decentralized platform built using React for c
 
 ## Installation
 1. Clone the repository:
-   ```bash
-   git clone https://github.com/Nettyfy/nft-marketplace-nettyfy.git
-
-
-Certainly! Here's the content formatted for a README.md file:
-
-markdown
-Copy code
-# NFT Marketplace
-
-## Table of Contents
-1. [Introduction](#introduction)
-2. [Features](#features)
-3. [Requirements](#requirements)
-4. [Installation](#installation)
-5. [Usage](#usage)
-   - [Creating NFT](#creating-nft)
-   - [Listing NFT](#listing-nft)
-   - [Fetching User's NFTs](#fetching-users-nfts)
-   - [Fetching Listed NFTs](#fetching-listed-nfts)
-6. [Contributing](#contributing)
-7. [License](#license)
-
-## Introduction
-Welcome to the NFT Marketplace, a decentralized platform built using React for creating, listing, and managing Non-Fungible Tokens (NFTs). This application allows users to mint their own NFTs, list them for sale on the marketplace, and fetch NFTs associated with a specific wallet address.
-
-## Features
-1. **Create NFTs:** Users can mint their own unique NFTs with custom metadata and attributes.
-2. **List NFTs:** NFT creators can list their tokens for sale on the marketplace, specifying the price and other details.
-3. **Fetch User's NFTs:** Users can retrieve a list of NFTs associated with a particular wallet address.
-4. **Fetch Listed NFTs:** Users can view all NFTs listed for sale on the marketplace.
-
-## Requirements
-- Node.js
-- npm or yarn
-- MetaMask or any compatible Ethereum wallet
-
-## Installation
-1. Clone the repository:
     ```bash
-    git clone https://github.com/Nettyfy/nft-marketplace-nettyfy.git
+    git clone https://github.com/Shrey-Gajjar-9798/NFTMarketplace.git
     ```
 2. Navigate to the project directory:
     ```bash
-    cd nft-marketplace
+    cd test
     ```
 3. Install dependencies:
     ```bash
